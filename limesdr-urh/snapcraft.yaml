@@ -113,7 +113,7 @@ parts:
         plugin: python
         source: https://github.com/jopohl/urh.git
         build-packages: [libhackrf-dev]
-        after: [limesuite, soapysdr, gnuradio]
+        after: [limesuite, soapysdr, gnuradio, desktop-qt5]
 
 
     pythonmodules:
