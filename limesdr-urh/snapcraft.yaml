@@ -21,7 +21,7 @@ apps:
 
     urh:
         command: desktop-launch urh
-        plugs: [network, x11, pulseaudio, opengl, home]
+        plugs: [network, x11, pulseaudio, opengl, home, unity7]
 
     gnuradio-config-info:
         command: gnuradio-config-info
