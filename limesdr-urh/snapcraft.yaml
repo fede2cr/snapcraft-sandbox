@@ -113,6 +113,11 @@ parts:
         plugin: python
         source: https://github.com/jopohl/urh.git
         build-packages: [libhackrf-dev]
+        stage-packages:
+          - python3-numpy
+          - python3-psutil
+          - python3-zmq
+          - python3-pyqt5
         after: [limesuite, soapysdr, gnuradio, desktop-qt5]
 
 
